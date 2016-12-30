@@ -24,6 +24,15 @@ $foreground: #FFF;
     -webkit-animation-delay:-0.16s;
     animation-delay:-0.16s;
 
+    &.loader-md {
+      margin: 95px auto;
+      font-size: 8px;
+    }
+    &.loader-sm {
+      margin: 105px auto;
+      font-size: 5px;
+    }
+
     &:before,
     &:after {
       position:absolute;

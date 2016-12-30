@@ -14,9 +14,6 @@ It means that loaders will fallback to a text state of simply saying "Loading...
   overflow: visible;
   box-shadow: none;
   -webkit-animation: none;
-  animation: none;
-}
-.no-cssanimations .load-container .loader:before,
-.no-cssanimations .load-container .loader:after {
-  display: none;
-}
+  animation: none; }
+  .no-cssanimations .load-container .loader:before, .no-cssanimations .load-container .loader:after {
+    display: none; }

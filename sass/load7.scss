@@ -26,6 +26,30 @@ $foreground: #fff;
     -webkit-animation-delay:-0.16s;
     animation-delay:-0.16s;
 
+    &.loader-md {
+      margin: 110px auto;
+      font-size: 7px;
+    }
+
+    &.loader-md,
+    &.loader-md:before,
+    &.loader-md:after {
+      width: 1.5em;
+      height: 1.5em;
+    }
+
+    &.loader-sm {
+      margin: 140px auto;
+      font-size: 5px;
+    }
+
+    &.loader-sm,
+    &.loader-sm:before,
+    &.loader-sm:after {
+      width: 0.75em;
+      height: 0.75em;
+    }
+
     &:before,
     &:after {
       content:'';

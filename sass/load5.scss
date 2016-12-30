@@ -15,6 +15,20 @@ $foreground: #fff;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
+
+    &.loader-md {
+      margin: 115px auto;
+      font-size: 15px;
+      width: 0.70em;
+      height: 0.70em;
+    }
+
+    &.loader-sm {
+      margin: 130px auto;
+      font-size: 10px;
+      width: 0.40em;
+      height: 0.40em;
+    }
   }
 
 }

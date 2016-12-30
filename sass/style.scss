@@ -1,0 +1,44 @@
+body {
+  background-color: #0dc5c1;
+  color: #fff;
+}
+
+.main-wrapper {
+  margin: auto;
+  width: 75%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+pre {
+  background-color: #246969;
+
+}
+
+.flex-container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  & .flex-item-container {
+    position: relative;
+    flex: 1 100%;
+    flex-basis: 240px;
+    margin: 0 -1px -1px 0;
+    border: 1px solid #fff;
+  }
+}
+
+.load-container {
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

@@ -22,6 +22,16 @@ $foreground: #FFF;
     -ms-transform: translateZ(0);
     transform: translateZ(0);
 
+    &.loader-md {
+      margin: 75px auto;
+      font-size: 8px;
+    }
+
+    &.loader-sm {
+      margin: 100px auto;
+      font-size: 5px;
+    }
+
     &:before,
     &:after {
       position:absolute;
